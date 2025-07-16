@@ -24,8 +24,6 @@ export default function AccountMenu(props) {
     }
     fetchEmail()
   }, [])
-
-  console.log(emailData);
   
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
