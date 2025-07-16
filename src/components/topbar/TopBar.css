@@ -1,0 +1,117 @@
+.topBar {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.topBarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+.logoContainer {
+  width: 260px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logoImg {
+  width: 140px;
+  height: 28px;
+}
+.topBarMenuWrapper {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  color: #9c9fa6;
+}
+.topBarLeftWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.sideBarTogglerBtn {
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  cursor: pointer;
+  display: flex;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.searchIcon {
+  width: 15px;
+  color: #9c9fa6;
+}
+.searchInputElem {
+  border: 0;
+  outline: 0;
+  font-weight: lighter;
+  color: #9c9fa6;
+}
+.topBarList {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.topBarListItem {
+    cursor: pointer;
+}
+.userInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.userImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userName {
+    font-weight: 400;
+    color: #000;
+    line-height: 15px;
+}
+.messageContainer {
+  position: relative;
+  height: 15px;
+}
+.messageContainer > div {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  right: 0;
+}
+.messageIcon {
+  width: 15px;
+  cursor: pointer;
+}
+.messageNotification {
+  background-color: red;
+}
+.mailNotification {
+  background-color: orange;
+}
+.logoutIcon {
+  width: 15px;
+  cursor: pointer;
+}

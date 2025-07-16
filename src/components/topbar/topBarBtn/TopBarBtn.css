@@ -1,0 +1,57 @@
+    .MuiTypography-root {
+        padding: 16px;
+    }
+    hr  {
+        margin: 0 !important;
+    }
+    .messageListItem {
+        display: flex;
+        align-items: center;
+        padding: 11px 13px !important;
+        cursor: pointer;
+    }
+
+    .messageListItem img {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .messageListItem > div {
+        padding-left: 15px; 
+    }
+
+    .messageListItem > div > h6 {
+        font-weight: 400;
+        font-size: 15px; 
+        letter-spacing: 1px;
+    }
+
+    .messageListItem p {
+        color: rgb(140, 140, 140);
+        font-size: 15px;
+    }
+    
+    
+    /* 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+
+
+
+    
